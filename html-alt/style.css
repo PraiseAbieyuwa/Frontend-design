@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+  .main-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+  .left-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    justify-content: space-between;
+    height: 100%; 
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+/* .logo {
+    align-self: flex-start; 
+} */
+
+.head {
+    text-align: center;
+    font-size: 50px;
+}
+.secondHeader {
+    text-align: center;
+    font-size: 34px; 
+}
+
+.footer {
+    align-self: center;
+    margin-top: auto; 
+}
+.copyright-symbol {
+    font-size: 0.5rem;
+}
+.right-container {
+    flex: 1;
+    padding: 20px;
+}
+.right-header{
+    color: rgb(9, 9, 65);
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.input-holder {
+    display: flex;
+    gap: 20px; 
+}
+
+.left-input,
+.right-input {
+    flex: 1;
+}
+.input-holder,
+.foot {
+    margin-bottom: 20px; 
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+button {
+    margin-top: 10px;
+}
+
+.foot {
+    margin-top: 20px;
+}
+  .logo{
+    width: 100px;
+    height: auto;
+  }
+  
