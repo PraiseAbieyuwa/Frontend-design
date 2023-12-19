@@ -1,33 +1,107 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Sample Breadcrumb Navigation</title>
-</head>
-<body>
-    <header>
-        <!-- Breadcrumb navigation -->
-        <nav aria-label="Breadcrumb">
-            <ol>
-                <li><a href="about.html">Home</a></li>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="view port"/>
+        <meta name="viewport" content="width=device-width"/>
+        <title>Unlock Your Potential with AltSchool Africa - Sign Up Now!</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Table of contents</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#section1">About Me</a></li>
+                <li><a href="#section2">Why Alt school?</a></li>
+                <li><a href="#section3">My goals</a></li>
+                <li><a href="#section4">Summary</a></li>
                 <li><a href="form.html">Alt school Form</a></li>
-                <li>Current Page</li>
-            </ol>
+            </ul>
         </nav>
-    </header>
-    <main>
-        <!-- Content of the current page -->
-        <h1>Current Page</h1>
-        <p>
-            This is an Html Document that introduces the writer and also include a 
-            sample of Alt school Application.
+        <main>
+            <section id="section1">
+                <img src="house1.jpg" alt="This is nice house located in europe">
+                <dl>
+                    <dt><h2>About Me</h2></dt>
+                    <dd><p>My Name is Praise Abieyuwa Alohan with Alt school ID: <b>ALT/SOE/023/2120</b>
+                    and this is my story. 
+                    My second Attempt on HTml and Css.</p>
+                    <p>My First Attempt was after I dropped out of Alx (yikes) and decided to learn Myself
+                    Cheers to giving it more trials. Software Eng. is not for the faint hearted</p>
+                </dd>
+                </dl>  
+            </section>
+            
+            <section id="section2">
+                <dl>
+                    <dt><h2>Why Alt School</h2></dt>
+                    <dd>
+                        <p>I never had intentions of joining Alt school until I dropped out of ALX 
+                            and my mates were running their last semester in ALX,
+                            I knew it was time to give myself another chance.
+                        </p>
+                        <p>Like I said, Alx was my major goal but I faced Roadblocks when I got to month three and made a tough decision</p>
+                        <ul>
+                
+                            <li>Continue ALX without understanding and dealing with mental breakdown.</li>
+                            <nbsp> OR</nbsp>
+                            <li>Enroll in a new Program that is less time consuming and Flexible</li>
+                            <li>Give Programming a second chance</li>
+                        </ul>
+                        <P>Alt School became my second Option and self teaching is my Last one</P>
+                        <p>I know none of this path is easy but I believe I can gain a lot from it</p>
+                    </dd>
+                </dl>
+            </section>
 
-            More changes is bound to happen as time goes on and integration of Css too.
-        </p>
-        <p>
-            The goal of this is to write Html document and also integrate css and Js.
+            <section id="section3">
+                <dl>
+                    <dt><h2>My goals</h2></dt>
+                    <dd>
+                        <p>If I was asked why I choose to learn programming/ work in Tech a year ago, 
+                            I believe my answer will be the same as any Nigerian struggling to make ends meet.
+                            <br>I wanted to get into Tech especially the technical side cause of opportunities</br>
+                        </p>
+                        <p>As someone who likes to stay curious I realized its Important to learn 
+                            something I can always upskills 
+                        </p>
+                        <p>In no particular order I believe this is my end goal for Alt School and 
+                            Learning to Code in general
+                        </p>
+                        <ul>
+                            <li>Choose between Backend or Cloud Engineering</li>
+                            <li>Get an international role with my sales background</li>
+                            <li>A lifetime skillset that can easily be upskilled</li>
+                            <li>Enjoy life and Explore the world</li>
+                            <li>Use the skillset in my other intrests (Global Youth)</li>
+                        </ul>
+                    </dd>
+                </dl>
+                </section>
 
-            It is still in a development phase and hopefully it can be pushed
-        </p>
-    </main>
-</body>
+        <section id="section4">
+            <details>
+                <summary>Summary of my bio</summary>
+                <p>
+                    I am a young Lady that wants to create a lifetime opportunity for myself and become
+                        the person I have always Imagined. I want to create an opportunity for my siblings
+                        to have the life I never had and to give my parents the Life they have always prayed for.
+                        I am the girl with a big God.
+                </p>
+            </details>
+        </section>
+        <label for="fruits">Choose a fruit:</label>
+        <input list="fruits" name="fruit" id="fruit-input">
+        <datalist id="fruits">
+            <option value="Apple">
+            <option value="Banana">
+            <option value="Cherry">
+            <option value="Date">
+            <option value="Grape">
+        </datalist>  
+        </main>
+    </body>
 </html>
